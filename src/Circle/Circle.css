@@ -1,0 +1,29 @@
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #efefef;
+  box-shadow: 0 0 4px #333;
+  display: inline-block;
+  margin: 20px;
+  align-items: center;
+}
+
+.circle.active {
+  box-shadow: inset 0px 5px rgba(0, 0, 1);
+  background: black;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  margin: 2rem;
+  border-radius: 5px;
+  background: #e3bf0e;
+  padding: 0.7rem;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+.circle.active {
+  background-image: url('/assets/monkey.jpg');
+}
